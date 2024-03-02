@@ -226,7 +226,27 @@ a:focus {
 
 /* ===========FOOTER============== */
 
-/* .end {
+.footer {
+  background-color: #2e2f42;
+}
+a.footer-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.link-span-footer {
+  color: #f4f4fd;
+}
+.footer-text {
+}
+
+
+/* /* .end {
   background-color: #2e2f42;
 }
 .end-link {
@@ -236,7 +256,7 @@ a:focus {
 .end-text {
 } */
 
-.footer {
+/* .footer {
   background-color: #2e2f42;
 }
 .footer-link {
@@ -262,4 +282,4 @@ a:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
-}
+} */ */
