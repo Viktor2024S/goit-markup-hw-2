@@ -80,7 +80,7 @@ a:focus {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -92,7 +92,14 @@ a:focus {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  cursor: "pointer";
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  background-color: #404bbf;
+}
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 /* ===========MAIN============== */
@@ -128,12 +135,13 @@ a:focus {
 /* ===========MAIN============== */
 /* ===========3-TEAM============== */
 .team {
+  background-color: #f4f4fd;
 }
 
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
@@ -144,6 +152,7 @@ a:focus {
 }
 
 .team-item {
+  background-color: #ffffff;
 }
 
 .team-list-image {
@@ -174,7 +183,7 @@ a:focus {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
@@ -226,5 +235,5 @@ a:focus {
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
