@@ -18,16 +18,15 @@ ol {
 }
 
 .header-navigation {
-  font-family: "Raleway", sans-serif
+}
+
+.header-logo {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5}
-
-.header-logo {
-
+  color: #4d5ae5;
 }
 
 .header-menu-list {
@@ -42,14 +41,14 @@ ol {
 }
 
 .header-menu-link {
-  color: #2e2f42
-  }
+  color: #2e2f42;
+}
 
 a:hover {
- color: #404bbf;
+  color: #404bbf;
 }
 a:focus {
-color: #404bbf;
+  color: #404bbf;
 }
 
 .header-contacts {
